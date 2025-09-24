@@ -9,9 +9,11 @@ A web-based tool for predicting the stability change (ΔΔG) of enzyme mutations
 # Usage
 ## Running the Web Application
 1. Clone this repository
-2. Run the application:
+2. Run the model:
+`python model.py`
+3. Run the application:
 `python gradio.py`
-3. Open your web browser and navigate to the local URL displayed in the terminal (typically http://localhost:7860)
+4. Open your web browser and navigate to the local URL displayed in the terminal (typically http://localhost:7860)
 ## Using the Predictor
 1. Select Mutation Site: Choose from the dropdown menu of available mutation sites
 2. Adjust Cavity Volume: Use the slider to set the cavity volume in cubic Ångströms (Å³) between 0.5 and 5.0
